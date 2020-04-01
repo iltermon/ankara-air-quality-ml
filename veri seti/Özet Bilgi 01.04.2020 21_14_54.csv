@@ -1,0 +1,372 @@
+;Ýstasyon;Parametre;Min. Deðer;Min. Tarih;Max. Deðer;Max. Tarih;Ort. Deðer;Veri Adeti;Olmasý Gereken Veri;Veri Yüzdesi;Standart Sapma;Toplam Deðer
+Ýstasyon: Ankara - Bahçelievler;;;;;;;;;;;;
+;Ankara - Bahçelievler;CO;0,07;9.12.2008;13187,18;17.03.2011;842,64;6943;14795;46,93;769,04;5850442,28
+;Ankara - Bahçelievler;PM10;1,3;19.08.2019;545,81;6.05.2019;51,14;6822;14795;46,11;39,13;348891,7
+;Ankara - Bahçelievler;SO2;0,25;26.08.2010;305,44;3.05.2012;12,92;6597;14795;44,59;17,8;85232,41
+;Ankara - Bahçelievler;NOX;3,96;9.02.2020;674,24;5.12.2008;90,52;6334;14795;42,81;80,69;573337,48
+;Ankara - Bahçelievler;NO2;0,02;1.12.2008;556,81;6.04.2010;51,63;6330;14795;42,78;32,68;326809,52
+;Ankara - Bahçelievler;NO;0;2.05.2008;502,54;23.10.2013;38,71;6322;14795;42,73;56,8;244747,7
+;Ankara - Bahçelievler;HavaSicakligi;-55;27.11.2012;37,18;14.08.2019;12,77;5791;14795;39,14;11,52;73948,56
+;Ankara - Bahçelievler;BagilNem;-24,99;19.03.2013;99;18.12.2019;53,78;5791;14795;39,14;19,47;311453,52
+;Ankara - Bahçelievler;HavaBasinc;0,9;24.05.2013;2820;30.05.2013;907,58;5788;14795;39,12;151,55;5253074,77
+;Ankara - Bahçelievler;KabinSicakligi;-10;24.02.2014;6962,58;10.02.2015;412,84;5294;14795;35,78;1158,04;2185593,75
+;Ankara - Bahçelievler;PM25;0,55;3.10.2019;5844,29;4.12.2008;26,4;5246;14795;35,46;132,41;138480,2
+;Ankara - Bahçelievler;RuzgarYon;-89,98;19.03.2013;358;28.10.2016;117,2;4639;14795;31,36;103,83;543710,25
+;Ankara - Bahçelievler;RuzgarHizi;-12,52;19.12.2012;6,12;2.01.2010;0,62;4571;14795;30,9;2,41;2825,9
+;Ankara - Bahçelievler;Yagmur;-375,04;8.12.2012;996,29;27.07.2012;277;2295;14795;15,51;267,9;635707,49
+;Ankara - Bahçelievler;KabinNem;23,83;7.10.2011;61,4;12.10.2011;36,69;1699;14795;11,48;5,09;62337,34
+;Ankara - Bahçelievler;PM25Debi;0,77;2.05.2019;16,68;24.07.2018;2,2;1129;14795;7,63;4,43;2478,29
+;Ankara - Bahçelievler;PM10Debi;0,81;7.05.2019;16,67;3.08.2018;0,94;1026;14795;6,93;1,29;960,4
+;Ankara - Bahçelievler;SampleFlow;0,91;10.12.2019;2,08;15.01.2020;1,78;263;14795;1,78;0,2;468,2
+;Ankara - Bahçelievler;Enverziyon;0;7.01.2012;89;31.12.2011;34,25;61;14795;0,41;23,6;2089,37
+;Ankara - Bahçelievler;O3;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;Debi;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;GunesRadyasyon;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;Sicaklik;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;Arsenik;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;BOS;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;Benzen;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;CH4;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;CO_2;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;CS_tei;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;Cd;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;Elektrik;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;EtillBenzene;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;H2S_tei;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;HC;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;Hg;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;NMHC;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;Nem;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;Ni;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;OKsilen;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;PAH_BAP;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;PM1;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;PM10Debi_2;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;Pb;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;SO2Test;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;SolarRadyasyon;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;TestChannel;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;ToplamKsilen;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;Toulen;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;UVARadyasyonu;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;UVBRadyasyon;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;mKsilen;;;;;;0;14795;0;;0
+;Ankara - Bahçelievler;pKsilen;;;;;;0;14795;0;;0
+Ýstasyon: Ankara - Demetevler;;;;;;;;;;;;
+;Ankara - Demetevler;PM10;1,6;13.09.2019;710,73;28.12.2012;63,43;6780;14795;45,83;50,63;430070,73
+;Ankara - Demetevler;SO2;0,02;19.12.2018;158,8;2.03.2011;10,8;6608;14795;44,66;9,85;71342,51
+;Ankara - Demetevler;NOX;1,23;3.07.2014;1897,43;21.01.2011;106,04;6388;14795;43,18;106,84;677386,99
+;Ankara - Demetevler;NO2;0,82;3.07.2014;474,85;22.01.2011;54,93;6368;14795;43,04;39,74;349765,43
+;Ankara - Demetevler;NO;0,06;31.01.2015;1428,54;21.01.2011;50,03;6366;14795;43,03;79,54;318518,5
+;Ankara - Demetevler;KabinSicakligi;5,13;9.01.2015;41,68;15.06.2010;16,14;6188;14795;41,82;4,97;99845,76
+;Ankara - Demetevler;HavaSicakligi;-54,61;27.12.2017;78,28;3.07.2017;8,5;6022;14795;40,7;16,54;51170,46
+;Ankara - Demetevler;HavaBasinc;877,52;6.01.2015;1168,08;16.05.2015;989,37;6022;14795;40,7;64,41;5957983,53
+;Ankara - Demetevler;RuzgarHizi;0,06;12.10.2010;9,92;18.10.2015;2,77;6022;14795;40,7;2,01;16696,81
+;Ankara - Demetevler;GunesRadyasyon;-1,8;28.11.2010;607,73;2.08.2012;170,3;6022;14795;40,7;136,83;1025536,64
+;Ankara - Demetevler;BagilNem;5,32;29.09.2012;104,14;6.01.2016;50,94;6022;14795;40,7;19,22;306782,29
+;Ankara - Demetevler;RuzgarYon;26,19;28.01.2010;335,65;6.02.2008;203,22;5805;14795;39,24;43,31;1179706,5
+;Ankara - Demetevler;PM25;0;5.07.2008;7457,43;4.07.2008;34,14;5243;14795;35,44;146,06;178987,05
+;Ankara - Demetevler;KabinNem;-0,02;16.06.2016;104622,87;11.12.2019;57,94;3044;14795;20,57;1895,99;176356,61
+;Ankara - Demetevler;SampleFlow;1,92;19.02.2020;1,92;19.02.2020;1,92;86;14795;0,58;0;165,12
+;Ankara - Demetevler;Enverziyon;0;8.09.2011;86,25;5.01.2012;22,86;79;14795;0,53;25,28;1806,13
+;Ankara - Demetevler;Arsenik;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;Benzen;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;CH4;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;Cd;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;EtillBenzene;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;HC;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;Hg;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;NMHC;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;Ni;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;OKsilen;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;PAH_BAP;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;Pb;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;ToplamKsilen;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;Toulen;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;UVARadyasyonu;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;UVBRadyasyon;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;mKsilen;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;pKsilen;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Demetevler;PM10Debi;;;;;;0;14795;0;;0
+;Ankara - Demetevler;CO;;;;;;0;14795;0;;0
+;Ankara - Demetevler;O3;;;;;;0;14795;0;;0
+;Ankara - Demetevler;Debi;;;;;;0;14795;0;;0
+;Ankara - Demetevler;Sicaklik;;;;;;0;14795;0;;0
+;Ankara - Demetevler;BOS;;;;;;0;14795;0;;0
+;Ankara - Demetevler;CO_2;;;;;;0;14795;0;;0
+;Ankara - Demetevler;CS_tei;;;;;;0;14795;0;;0
+;Ankara - Demetevler;Elektrik;;;;;;0;14795;0;;0
+;Ankara - Demetevler;H2S_tei;;;;;;0;14795;0;;0
+;Ankara - Demetevler;Nem;;;;;;0;14795;0;;0
+;Ankara - Demetevler;PM1;;;;;;0;14795;0;;0
+;Ankara - Demetevler;PM10Debi_2;;;;;;0;14795;0;;0
+;Ankara - Demetevler;PM25Debi;;;;;;0;14795;0;;0
+;Ankara - Demetevler;SO2Test;;;;;;0;14795;0;;0
+;Ankara - Demetevler;SolarRadyasyon;;;;;;0;14795;0;;0
+;Ankara - Demetevler;TestChannel;;;;;;0;14795;0;;0
+;Ankara - Demetevler;Yagmur;;;;;;0;14795;0;;0
+Ýstasyon: Ankara - Kayaþ;;;;;;;;;;;;
+;Ankara - Kayaþ;HavaSicakligi;-42,1;27.12.2011;36,6;27.07.2012;12,56;7414;14795;50,11;9,25;93139,28
+;Ankara - Kayaþ;HavaBasinc;886,26;19.08.2011;1086,42;5.12.2015;993,48;7414;14795;50,11;51,17;7365641,51
+;Ankara - Kayaþ;BagilNem;-13,03;27.12.2011;100,46;7.01.2014;42,98;7414;14795;50,11;16,62;318656,75
+;Ankara - Kayaþ;KabinSicakligi;4,19;10.01.2019;43,43;11.08.2012;18,87;7356;14795;49,72;3,08;138820,58
+;Ankara - Kayaþ;PM10;0,27;11.03.2020;17965,93;15.05.2008;75,54;7084;14795;47,88;241,45;535133,8
+;Ankara - Kayaþ;RuzgarHizi;-42,57;19.12.2019;53,2;5.02.2020;3,96;6991;14795;47,25;6,37;27669,98
+;Ankara - Kayaþ;RuzgarYon;39,02;15.01.2012;648,17;31.10.2014;196,43;6990;14795;47,25;79,83;1373054,61
+;Ankara - Kayaþ;GunesRadyasyon;-3751,97;1.06.2017;3785,07;25.04.2019;-1526,24;6747;14795;45,6;1843,65;-10297513,22
+;Ankara - Kayaþ;SO2;0,12;3.02.2015;144,54;27.12.2010;11,94;6415;14795;43,36;13,33;76577,84
+;Ankara - Kayaþ;NO;0,22;12.07.2008;369,33;27.12.2011;32,63;5622;14795;38;36,37;183430,35
+;Ankara - Kayaþ;NO2;0,94;25.01.2018;319,4;26.12.2012;49,26;5621;14795;37,99;35,1;276907,05
+;Ankara - Kayaþ;NOX;1,44;25.01.2018;593,26;8.01.2014;82,03;5621;14795;37,99;64,78;461066,87
+;Ankara - Kayaþ;PM25;0;23.04.2008;7882,21;13.05.2008;35,57;5367;14795;36,28;174,5;190912,2
+;Ankara - Kayaþ;KabinNem;17,54;25.01.2018;71,14;25.05.2008;38,77;4235;14795;28,62;9,04;164210,52
+;Ankara - Kayaþ;Enverziyon;0;8.09.2011;88,5;31.12.2011;24,49;86;14795;0,58;25,23;2106,14
+;Ankara - Kayaþ;PM10Debi;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;CO;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;O3;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;Arsenik;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;Benzen;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;CH4;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;Cd;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;EtillBenzene;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;HC;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;Hg;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;NMHC;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;Ni;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;OKsilen;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;PAH_BAP;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;PM25Debi;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;Pb;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;ToplamKsilen;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;Toulen;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;UVARadyasyonu;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;UVBRadyasyon;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;mKsilen;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;pKsilen;0;8.09.2011;0;8.09.2011;0;23;14795;0,16;0;0
+;Ankara - Kayaþ;Debi;;;;;;0;14795;0;;0
+;Ankara - Kayaþ;Sicaklik;;;;;;0;14795;0;;0
+;Ankara - Kayaþ;BOS;;;;;;0;14795;0;;0
+;Ankara - Kayaþ;CO_2;;;;;;0;14795;0;;0
+;Ankara - Kayaþ;CS_tei;;;;;;0;14795;0;;0
+;Ankara - Kayaþ;Elektrik;;;;;;0;14795;0;;0
+;Ankara - Kayaþ;H2S_tei;;;;;;0;14795;0;;0
+;Ankara - Kayaþ;Nem;;;;;;0;14795;0;;0
+;Ankara - Kayaþ;PM1;;;;;;0;14795;0;;0
+;Ankara - Kayaþ;PM10Debi_2;;;;;;0;14795;0;;0
+;Ankara - Kayaþ;SO2Test;;;;;;0;14795;0;;0
+;Ankara - Kayaþ;SampleFlow;;;;;;0;14795;0;;0
+;Ankara - Kayaþ;SolarRadyasyon;;;;;;0;14795;0;;0
+;Ankara - Kayaþ;TestChannel;;;;;;0;14795;0;;0
+;Ankara - Kayaþ;Yagmur;;;;;;0;14795;0;;0
+Ýstasyon: Ankara - Keçiören Sanatoryum;;;;;;;;;;;;
+;Ankara - Keçiören Sanatoryum;KabinSicakligi;-10,99;4.11.2014;39,75;17.12.2010;17,29;7270;14795;49,14;7,59;125701,17
+;Ankara - Keçiören Sanatoryum;HavaBasinc;14,56;19.06.2015;24206,44;12.06.2019;1134;7199;14795;48,66;1820,48;8163636,47
+;Ankara - Keçiören Sanatoryum;HavaSicakligi;-19,17;2.02.2012;39,74;27.07.2012;12,98;7110;14795;48,06;10,41;92297,45
+;Ankara - Keçiören Sanatoryum;BagilNem;6,77;20.05.2015;104,48;21.12.2014;55,26;7095;14795;47,96;20,51;392051,75
+;Ankara - Keçiören Sanatoryum;PM10;0;1.06.2008;7464,63;2.05.2008;62,79;6878;14795;46,49;159,39;431886,88
+;Ankara - Keçiören Sanatoryum;O3;1,19;17.10.2014;29853,69;17.12.2010;45,19;6847;14795;46,28;361,45;309435,93
+;Ankara - Keçiören Sanatoryum;SO2;0,1;17.03.2015;148,88;24.01.2012;8,92;6729;14795;45,48;7,89;60011,09
+;Ankara - Keçiören Sanatoryum;NOX;2,98;25.03.2019;915,48;19.12.2019;98,4;6546;14795;44,24;73,14;644097,42
+;Ankara - Keçiören Sanatoryum;RuzgarHizi;-0,12;26.12.2018;26,37;17.08.2011;2,27;6543;14795;44,22;0,95;14836,97
+;Ankara - Keçiören Sanatoryum;RuzgarYon;6,28;6.06.2015;302,96;26.06.2011;145,84;6542;14795;44,22;73,18;954052,62
+;Ankara - Keçiören Sanatoryum;GunesRadyasyon;-375,56;10.09.2013;394,32;29.05.2008;-101,62;6542;14795;44,22;193,69;-664822,49
+;Ankara - Keçiören Sanatoryum;UVARadyasyonu;-17,52;1.06.2014;16,93;18.06.2012;-0,12;6542;14795;44,22;8,3;-812,46
+;Ankara - Keçiören Sanatoryum;UVBRadyasyon;-0,8;16.05.2015;4,78;10.07.2015;1,18;6542;14795;44,22;1,42;7730,27
+;Ankara - Keçiören Sanatoryum;NO2;0,97;22.01.2019;508,91;28.10.2019;52,76;6502;14795;43,95;27,09;343074,66
+;Ankara - Keçiören Sanatoryum;NO;0;11.04.2015;706,53;19.12.2019;44,97;6503;14795;43,95;54,59;292434,23
+;Ankara - Keçiören Sanatoryum;PM25;0,5;5.04.2019;5014,4;15.05.2008;23,59;6243;14795;42,2;74,5;147269,56
+;Ankara - Keçiören Sanatoryum;KabinNem;12;24.11.2016;70,55;17.12.2010;25,78;4267;14795;28,84;15,13;110021,46
+;Ankara - Keçiören Sanatoryum;PM10Debi;0,81;13.06.2019;0,83;1.06.2019;0,83;582;14795;3,93;0;482,84
+;Ankara - Keçiören Sanatoryum;PM25Debi;0,81;13.06.2019;0,83;1.06.2019;0,83;580;14795;3,92;0;481,21
+;Ankara - Keçiören Sanatoryum;SampleFlow;1,44;4.12.2019;1,92;18.06.2019;1,74;555;14795;3,75;0,11;964,28
+;Ankara - Keçiören Sanatoryum;Enverziyon;0;8.01.2012;81,25;30.01.2012;28,86;51;14795;0,34;22,36;1471,62
+;Ankara - Keçiören Sanatoryum;CO;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;Debi;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;Sicaklik;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;Arsenik;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;BOS;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;Benzen;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;CH4;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;CO_2;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;CS_tei;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;Cd;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;Elektrik;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;EtillBenzene;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;H2S_tei;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;HC;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;Hg;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;NMHC;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;Nem;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;Ni;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;OKsilen;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;PAH_BAP;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;PM1;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;PM10Debi_2;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;Pb;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;SO2Test;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;SolarRadyasyon;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;TestChannel;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;ToplamKsilen;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;Toulen;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;Yagmur;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;mKsilen;;;;;;0;14795;0;;0
+;Ankara - Keçiören Sanatoryum;pKsilen;;;;;;0;14795;0;;0
+Ýstasyon: Ankara - Sýhhýye;;;;;;;;;;;;
+;Ankara - Sýhhýye;HavaSicakligi;-8,12;2.02.2012;38,59;14.08.2019;14,59;7055;14795;47,69;8,56;102920,27
+;Ankara - Sýhhýye;HavaBasinc;883,31;15.01.2019;1535,55;16.05.2015;998,68;7055;14795;47,69;100,19;7045688,69
+;Ankara - Sýhhýye;BagilNem;-24,1;6.01.2010;107,59;4.06.2015;53,46;7055;14795;47,69;18,81;377159,28
+;Ankara - Sýhhýye;CO;0,71;28.12.2009;15274,12;1.04.2014;1276,11;6895;14795;46,6;723,56;8798783,69
+;Ankara - Sýhhýye;PM10;0,15;12.06.2019;703,47;26.12.2012;76,34;6779;14795;45,82;50,25;517489,91
+;Ankara - Sýhhýye;NO2;0,01;13.04.2014;458,21;30.03.2011;68,09;6695;14795;45,25;34,39;455889,98
+;Ankara - Sýhhýye;NOX;0,03;13.04.2014;752,02;19.12.2019;147,71;6695;14795;45,25;83,9;988905,46
+;Ankara - Sýhhýye;NO;0,02;13.04.2014;576,68;19.12.2019;78,44;6695;14795;45,25;63,86;525174,92
+;Ankara - Sýhhýye;SO2;0,2;15.09.2016;118,26;16.04.2014;10,19;6683;14795;45,17;8,72;68111,44
+;Ankara - Sýhhýye;KabinSicakligi;11,27;2.01.2016;38,23;4.06.2010;17,59;6041;14795;40,83;3,46;106251,55
+;Ankara - Sýhhýye;RuzgarHizi;0,13;7.01.2010;23,64;16.08.2011;2,35;5835;14795;39,44;2,91;13722,92
+;Ankara - Sýhhýye;GunesRadyasyon;-42,99;21.03.2011;719,5;15.08.2011;372,03;5835;14795;39,44;132,2;2170781,93
+;Ankara - Sýhhýye;RuzgarYon;43,88;17.01.2010;337,98;21.08.2010;202,97;5823;14795;39,36;38,16;1181870,96
+;Ankara - Sýhhýye;PM25;1,53;9.02.2020;228,69;21.01.2011;29,69;5768;14795;38,99;21,12;171238,5
+;Ankara - Sýhhýye;O3;1,35;19.10.2018;79,18;12.08.2019;18,8;971;14795;6,56;15,96;18253,14
+;Ankara - Sýhhýye;PM10Debi;0,81;11.06.2019;0,83;15.08.2018;0,83;617;14795;4,17;0;511,91
+;Ankara - Sýhhýye;PM25Debi;0;16.08.2018;0,83;15.08.2018;0,83;601;14795;4,06;0,03;497,58
+;Ankara - Sýhhýye;KabinNem;27,28;27.12.2019;28,38;9.02.2020;28,11;264;14795;1,78;0,11;7420,44
+;Ankara - Sýhhýye;SampleFlow;-0,65;28.11.2019;6,31;27.11.2019;2,21;264;14795;1,78;0,89;584,62
+;Ankara - Sýhhýye;Enverziyon;0;7.01.2012;237,38;14.09.2011;123,41;166;14795;1,12;86,96;20486,57
+;Ankara - Sýhhýye;Debi;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;Sicaklik;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;Arsenik;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;BOS;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;Benzen;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;CH4;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;CO_2;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;CS_tei;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;Cd;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;Elektrik;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;EtillBenzene;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;H2S_tei;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;HC;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;Hg;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;NMHC;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;Nem;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;Ni;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;OKsilen;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;PAH_BAP;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;PM1;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;PM10Debi_2;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;Pb;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;SO2Test;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;SolarRadyasyon;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;TestChannel;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;ToplamKsilen;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;Toulen;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;UVARadyasyonu;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;UVBRadyasyon;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;Yagmur;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;mKsilen;;;;;;0;14795;0;;0
+;Ankara - Sýhhýye;pKsilen;;;;;;0;14795;0;;0
+Ýstasyon: Ankara - Sincan;;;;;;;;;;;;
+;Ankara - Sincan;PM10;0,89;28.01.2012;830,91;17.12.2018;56,95;6987;14795;47,23;48,56;397919,86
+;Ankara - Sincan;KabinSicakligi;7,18;6.03.2013;47,02;6.06.2019;19,07;6951;14795;46,98;4,18;132521,37
+;Ankara - Sincan;HavaSicakligi;-58,75;13.05.2015;38,89;1.08.2010;12,04;6413;14795;43,35;15,96;77224,41
+;Ankara - Sincan;RuzgarHizi;-3,25;3.06.2012;28,9;26.06.2014;3,12;6413;14795;43,35;3,51;19982,19
+;Ankara - Sincan;RuzgarYon;-88,21;5.07.2014;311,27;22.08.2010;88,32;6413;14795;43,35;109,09;566388,14
+;Ankara - Sincan;GunesRadyasyon;-374,21;17.09.2014;932,43;28.10.2011;-13,88;6413;14795;43,35;278,33;-89029,92
+;Ankara - Sincan;BagilNem;-24,95;11.07.2014;102,85;9.01.2012;46,86;6374;14795;43,08;25,17;298674,19
+;Ankara - Sincan;NO2;1,48;22.07.2011;449,91;22.11.2019;42,62;6358;14795;42,97;27,27;270979,57
+;Ankara - Sincan;NO;0,16;4.05.2012;542,93;7.11.2016;32,16;6358;14795;42,97;44,88;204486,65
+;Ankara - Sincan;NOX;1,8;22.07.2011;719,77;7.11.2016;74,18;6354;14795;42,95;61,52;471315,57
+;Ankara - Sincan;HavaBasinc;15,03;19.05.2015;1103,82;16.02.2016;976,05;6290;14795;42,51;159,07;6139355,02
+;Ankara - Sincan;SO2;0,03;18.11.2011;314,47;5.04.2012;10,63;6199;14795;41,9;13,07;65909,65
+;Ankara - Sincan;O3;1,29;26.01.2015;212,46;1.05.2012;38,71;5480;14795;37,04;24,91;212123,79
+;Ankara - Sincan;PM25;0,42;23.04.2017;260,23;6.05.2019;24,15;5385;14795;36,4;20,33;130030,19
+;Ankara - Sincan;KabinNem;2,16;26.11.2018;82,1;5.07.2010;30,85;3845;14795;25,99;15,67;118608,68
+;Ankara - Sincan;SampleFlow;1,67;17.03.2020;2,01;31.12.2019;1,88;276;14795;1,87;0,06;518,97
+;Ankara - Sincan;Enverziyon;0;6.01.2012;92,5;5.01.2012;31,32;54;14795;0,36;24,52;1691,11
+;Ankara - Sincan;CO;55,6;31.08.2011;356,9;19.08.2011;264,64;26;14795;0,18;83,62;6880,57
+;Ankara - Sincan;Benzen;125,08;19.08.2011;926,26;23.08.2011;891,85;26;14795;0,18;156,41;23188,16
+;Ankara - Sincan;EtillBenzene;16,39;23.08.2011;44,13;19.08.2011;22,23;26;14795;0,18;5,83;578,02
+;Ankara - Sincan;PM25Debi;21,73;31.08.2011;35,16;27.08.2011;26,99;26;14795;0,18;3,37;701,67
+;Ankara - Sincan;Toulen;16,49;28.08.2011;39,44;19.08.2011;17,76;26;14795;0,18;4,44;461,73
+;Ankara - Sincan;PM10Debi;9,61;19.08.2011;32,8;26.08.2011;20,81;12;14795;0,08;6,61;249,74
+;Ankara - Sincan;ToplamKsilen;0;19.08.2011;1,4;23.08.2011;0,61;12;14795;0,08;0,59;7,29
+;Ankara - Sincan;mKsilen;10,83;19.08.2011;32,33;26.08.2011;21,42;12;14795;0,08;6,06;257
+;Ankara - Sincan;Debi;;;;;;0;14795;0;;0
+;Ankara - Sincan;Sicaklik;;;;;;0;14795;0;;0
+;Ankara - Sincan;Arsenik;;;;;;0;14795;0;;0
+;Ankara - Sincan;BOS;;;;;;0;14795;0;;0
+;Ankara - Sincan;CH4;;;;;;0;14795;0;;0
+;Ankara - Sincan;CO_2;;;;;;0;14795;0;;0
+;Ankara - Sincan;CS_tei;;;;;;0;14795;0;;0
+;Ankara - Sincan;Cd;;;;;;0;14795;0;;0
+;Ankara - Sincan;Elektrik;;;;;;0;14795;0;;0
+;Ankara - Sincan;H2S_tei;;;;;;0;14795;0;;0
+;Ankara - Sincan;HC;;;;;;0;14795;0;;0
+;Ankara - Sincan;Hg;;;;;;0;14795;0;;0
+;Ankara - Sincan;NMHC;;;;;;0;14795;0;;0
+;Ankara - Sincan;Nem;;;;;;0;14795;0;;0
+;Ankara - Sincan;Ni;;;;;;0;14795;0;;0
+;Ankara - Sincan;OKsilen;;;;;;0;14795;0;;0
+;Ankara - Sincan;PAH_BAP;;;;;;0;14795;0;;0
+;Ankara - Sincan;PM1;;;;;;0;14795;0;;0
+;Ankara - Sincan;PM10Debi_2;;;;;;0;14795;0;;0
+;Ankara - Sincan;Pb;;;;;;0;14795;0;;0
+;Ankara - Sincan;SO2Test;;;;;;0;14795;0;;0
+;Ankara - Sincan;SolarRadyasyon;;;;;;0;14795;0;;0
+;Ankara - Sincan;TestChannel;;;;;;0;14795;0;;0
+;Ankara - Sincan;UVARadyasyonu;;;;;;0;14795;0;;0
+;Ankara - Sincan;UVBRadyasyon;;;;;;0;14795;0;;0
+;Ankara - Sincan;Yagmur;;;;;;0;14795;0;;0
+;Ankara - Sincan;pKsilen;;;;;;0;14795;0;;0
+Ýstasyon: Ankara - Siteler;;;;;;;;;;;;
+;Ankara - Siteler;PM10;0,76;23.07.2019;805,28;12.02.2012;70,89;6831;14795;46,17;56,17;484283,12
+;Ankara - Siteler;KabinSicakligi;1,11;6.04.2019;41,93;19.09.2011;18,4;6820;14795;46,1;3,44;125480,17
+;Ankara - Siteler;SO2;0,06;7.09.2010;192,31;19.09.2011;11,65;6553;14795;44,29;11,04;76313,54
+;Ankara - Siteler;CO;1,93;6.06.2016;303943,39;1.01.2010;1219,34;6295;14795;42,55;3913,96;7675747
+;Ankara - Siteler;HavaSicakligi;-8,42;26.01.2010;127,9;6.04.2019;16,01;6249;14795;42,24;9,07;100044,28
+;Ankara - Siteler;HavaBasinc;893,57;11.12.2010;1340,38;16.05.2015;1026,83;6249;14795;42,24;100,32;6416654,97
+;Ankara - Siteler;RuzgarYon;56,09;29.12.2010;720;6.04.2019;199,99;6248;14795;42,23;66,83;1249525,49
+;Ankara - Siteler;BagilNem;14,32;1.05.2010;146,5;6.04.2019;53,58;6246;14795;42,22;17,17;334678,89
+;Ankara - Siteler;RuzgarHizi;0,21;27.10.2010;13,34;1.02.2015;6,02;6189;14795;41,83;4,91;37268,94
+;Ankara - Siteler;NO;0;6.10.2019;681,58;19.12.2019;49,68;5946;14795;40,19;63,08;295417,53
+;Ankara - Siteler;NO2;0;6.10.2019;819,79;7.02.2011;63,79;5944;14795;40,18;52,15;379187,58
+;Ankara - Siteler;NOX;0;6.10.2019;1394,87;8.02.2011;114,05;5944;14795;40,18;101,15;677918,27
+;Ankara - Siteler;O3;0,23;19.12.2014;187,71;27.03.2017;37,12;5894;14795;39,84;26,72;218770,11
+;Ankara - Siteler;PM25;0;4.10.2019;1215,36;3.10.2019;35;4768;14795;32,23;40,49;166886,49
+;Ankara - Siteler;KabinNem;5,23;12.04.2019;73,11;7.03.2011;41,11;3696;14795;24,98;8,31;151935,77
+;Ankara - Siteler;GunesRadyasyon;3,16;23.02.2011;1967,49;6.04.2019;327,17;3071;14795;20,76;190,26;1004728,36
+;Ankara - Siteler;SampleFlow;-2,42;4.10.2019;1,89;22.01.2020;0,93;336;14795;2,27;1,74;313,52
+;Ankara - Siteler;Enverziyon;0;8.01.2012;89;31.12.2011;34,07;60;14795;0,41;24,03;2044,06
+;Ankara - Siteler;PM10Debi;;;;;;0;14795;0;;0
+;Ankara - Siteler;Debi;;;;;;0;14795;0;;0
+;Ankara - Siteler;Sicaklik;;;;;;0;14795;0;;0
+;Ankara - Siteler;Arsenik;;;;;;0;14795;0;;0
+;Ankara - Siteler;BOS;;;;;;0;14795;0;;0
+;Ankara - Siteler;Benzen;;;;;;0;14795;0;;0
+;Ankara - Siteler;CH4;;;;;;0;14795;0;;0
+;Ankara - Siteler;CO_2;;;;;;0;14795;0;;0
+;Ankara - Siteler;CS_tei;;;;;;0;14795;0;;0
+;Ankara - Siteler;Cd;;;;;;0;14795;0;;0
+;Ankara - Siteler;Elektrik;;;;;;0;14795;0;;0
+;Ankara - Siteler;EtillBenzene;;;;;;0;14795;0;;0
+;Ankara - Siteler;H2S_tei;;;;;;0;14795;0;;0
+;Ankara - Siteler;HC;;;;;;0;14795;0;;0
+;Ankara - Siteler;Hg;;;;;;0;14795;0;;0
+;Ankara - Siteler;NMHC;;;;;;0;14795;0;;0
+;Ankara - Siteler;Nem;;;;;;0;14795;0;;0
+;Ankara - Siteler;Ni;;;;;;0;14795;0;;0
+;Ankara - Siteler;OKsilen;;;;;;0;14795;0;;0
+;Ankara - Siteler;PAH_BAP;;;;;;0;14795;0;;0
+;Ankara - Siteler;PM1;;;;;;0;14795;0;;0
+;Ankara - Siteler;PM10Debi_2;;;;;;0;14795;0;;0
+;Ankara - Siteler;PM25Debi;;;;;;0;14795;0;;0
+;Ankara - Siteler;Pb;;;;;;0;14795;0;;0
+;Ankara - Siteler;SO2Test;;;;;;0;14795;0;;0
+;Ankara - Siteler;SolarRadyasyon;;;;;;0;14795;0;;0
+;Ankara - Siteler;TestChannel;;;;;;0;14795;0;;0
+;Ankara - Siteler;ToplamKsilen;;;;;;0;14795;0;;0
+;Ankara - Siteler;Toulen;;;;;;0;14795;0;;0
+;Ankara - Siteler;UVARadyasyonu;;;;;;0;14795;0;;0
+;Ankara - Siteler;UVBRadyasyon;;;;;;0;14795;0;;0
+;Ankara - Siteler;Yagmur;;;;;;0;14795;0;;0
+;Ankara - Siteler;mKsilen;;;;;;0;14795;0;;0
+;Ankara - Siteler;pKsilen;;;;;;0;14795;0;;0
