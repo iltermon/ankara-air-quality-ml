@@ -1,7 +1,6 @@
-Kentsel: Ankara - Bahçelievler
-Kırsal: EMEP - Ankara Çubuk
-Trafik: Ankara - Siteler
-Sanayi: Ankara - Sıhhıye
+Kentsel: Ankara - Bahçelievler 	PM10 ( µg/m³ )	PM10Debi ( m³/saat )	SO2 ( µg/m³ )	CO ( µg/m³ ) NO2 ( µg/m³ )	NOX ( µg/m³ )	NO ( µg/m³ )	HavaSicakligi ( °C )	BagilNem ( % )	KabinSicakligi ( °C )	KabinNem ( % )	PM25Debi ( m³/saat )	PM25 ( µg/m³ )	İstasyon Tipi	Gece Gündüz	Haftasonu/Haftaiçi
+Trafik: Ankara - Siteler 	PM10 ( µg/m³ )	SO2 ( µg/m³ )	CO ( µg/m³ )	NO2 ( µg/m³ )	NOX ( µg/m³ )	NO ( µg/m³ )	O3 ( µg/m³ )	HavaSicakligi ( °C )	BagilNem ( % )	KabinNem ( % )	KabinSicakligi ( °C )	PM25 ( µg/m³ )	İstayon Tipi	Gece/Gündüz	Haftasonu/Haftaiçi
+Sanayi: Ankara - Sıhhıye PM10 ( µg/m³ )	PM10Debi ( m³/saat )	SO2 ( µg/m³ )	CO ( µg/m³ )	NO2 ( µg/m³ )	NOX ( µg/m³ )	NO ( µg/m³ )	O3 ( µg/m³ )	HavaSicakligi ( °C )	BagilNem ( % )	KabinSicakligi ( °C )	KabinNem ( % )	PM25Debi ( m³/saat )	PM25 ( µg/m³ )	İstasyon Tipi	Gece Gündüz	Haftasonu/Haftaiçi
 
 Ölçüm Değerleri:
 PM10 (µg/m³): Partiküler Madde (PM10) ve çapı 10 mikrometreden küçük diğer tanecikler akciğerlere ulaşarak iltihaplanmaya ya da insanları çok olumsuz etkileyecek kalp ve akciğer hastalıklarına neden olabilirler.
