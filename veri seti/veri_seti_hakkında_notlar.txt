@@ -1,3 +1,9 @@
+Kentsel: Ankara - Bahçelievler
+Kırsal: EMEP - Ankara Çubuk
+Trafik: Ankara - Siteler
+Sanayi: Ankara - Sıhhıye
+
+Ölçüm Değerleri:
 PM10 (µg/m³): Partiküler Madde (PM10) ve çapı 10 mikrometreden küçük diğer tanecikler akciğerlere ulaşarak iltihaplanmaya ya da insanları çok olumsuz etkileyecek kalp ve akciğer hastalıklarına neden olabilirler.
 SO2(µg/m³): Kükürt dioksit (SO2) insanlar için doğrudan zehirleyicidir; temel olarak solunum fonksiyonlarını etkiler. Sülfürik asit ve sülfat formuna dönüşmesi durumunda insan sağlığını dolaylı olarak tehdit edebilir.
 CO(µg/m³): karbon ya da bileşikleri tam yanmadığında oluşan, yandığında karbondioksit veren, formülü CO olan, 0,97 yoğunluğunda, renksiz, kokusuz, zehirleyici bir gaz.
