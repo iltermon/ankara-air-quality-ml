@@ -1,5 +1,4 @@
-Tarih;;;;;;;;;;;;;;
-;PM10 ( µg/m³ );SO2 ( µg/m³ );CO ( µg/m³ );NO2 ( µg/m³ );NOX ( µg/m³ );NO ( µg/m³ );HavaSicakligi ( °C );BagilNem ( % );KabinSicakligi ( °C );KabinNem ( % );PM25 ( µg/m³ );Istasyon Tipi;Gece/Gunduz;Haftasonu/Haftaici
+Tarih;PM10;SO2;CO;NO2;NOX;NO;HavaSicakligi;BagilNem;KabinSicakligi;KabinNem;PM25;IstasyonTipi;Gece/Gunduz;Haftasonu/Haftaici
 1.04.2020 12:00;63,66;5,03;462,58;26,72;33,79;7,07;13,2;58,09;20,38;29,58;18,96;Kentsel;Gunduz;Haftaici
 1.04.2020 00:00;51,58;4,83;265,88;;;;10,04;69,05;20,28;29,42;18,41;Kentsel;Gece;Haftaici
 31.03.2020 12:00;44,82;5,49;503,17;;;;15,65;41,48;20,42;29,65;15,31;Kentsel;Gunduz;Haftaici
@@ -21529,5 +21528,5 @@ Tarih;;;;;;;;;;;;;;
 29.12.2009 00:00;17,26;5,6;1,5;45,98;128,46;82,45;7,58;82,37;19,99;;11,14;Sanayi;Gece;Haftaici
 28.12.2009 12:00;26,63;4,29;1,2;59,99;146,26;87,02;11,36;68,54;20,27;;15,48;Sanayi;Gunduz;Haftaici
 28.12.2009 00:00;67,87;5,78;0,71;49,11;191,76;143,28;11,11;76,43;20,28;;40,14;Sanayi;Gece;Haftaici
-19.04.2009 12:00;69,86;29,83;1,98;116,16;189,18;72,81;17,91;35,54;20,38;;;Sanayi;Gunduz;Haftasonu 
-19.04.2009 00:00;113,5;16,81;2,58;106,86;208,29;100,37;7,98;53,74;20,35;;;Sanayi;Gece;Haftasonu 
+19.04.2009 12:00;69,86;29,83;1,98;116,16;189,18;72,81;17,91;35,54;20,38;;;Sanayi;Gunduz;Haftasonu
+19.04.2009 00:00;113,5;16,81;2,58;106,86;208,29;100,37;7,98;53,74;20,35;;;Sanayi;Gece;Haftasonu
