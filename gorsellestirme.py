@@ -1,0 +1,27 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+df=pd.read_csv("veri_seti/ay_ortalama.csv", sep=';', encoding = 'utf8')
+df_kentsel=df.loc[df['IstasyonTipi'] == "Kentsel"].sort_values(by=['Index'])
+
+
+plt.bar(df_kentsel['Tarih'], df_kentsel['PM10'])
+plt.title("Kentsel PM10")
+plt.show()
+plt.bar(df_kentsel['Tarih'], df_kentsel['SO2'])
+plt.title("Kentsel SO2")
+plt.show()
+plt.bar(df_kentsel['Tarih'], df_kentsel['CO'])
+plt.title("Kentsel CO")
+plt.show()
+plt.bar(df_kentsel['Tarih'], df_kentsel['NO2'])
+plt.title("Kentsel NO2")
+plt.show()
+plt.bar(df_kentsel['Tarih'], df_kentsel['NOX'])
+plt.title("Kentsel NOX")
+plt.show()
+plt.bar(df_kentsel['Tarih'], df_kentsel['NO'])
+plt.title("Kentsel NO")
+plt.show()
+plt.bar(df_kentsel['Tarih'], df_kentsel['PM25'])
+plt.title("Kentsel PM25")
+plt.show()
