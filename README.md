@@ -18,3 +18,21 @@ O3(µg/m³): O3 oda sıcaklığında renksiz, karakteristik kokusu olan bir gazd
 BagilNem(%): Belirli bir sıcaklıkta havada bulunan su buharı miktarının, havanın o sıcaklıkta taşıyabileceği en fazla su buharı miktarı oranına bağıl nem denir.
 PM25(µg/m³): Partiküler Madde (PM25) ve çapı 25 mikrometreden küçük diğer tanecikler akciğerlere ulaşarak iltihaplanmaya ya da insanları çok olumsuz etkileyecek kalp ve akciğer hastalıklarına neden olabilirler.
 
+IstasyonTipi
+Kentsel: 0
+Sanayi: 1
+Trafik: 2
+
+GeceGunduz
+Gece: 0
+Gunduz: 1
+
+HaftasonuHaftaici
+Haftasonu: 0
+Haftaici: 1
+
+Mevsim
+Ilkbahar: 0
+Kis: 1
+Sonbahar: 2
+Yaz: 3
