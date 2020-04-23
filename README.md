@@ -1,6 +1,10 @@
 # Yazılım Mühendisliği Güncel Konular Dersi Projesi [redacted]/İlterkaan Karaca
-Kentsel: Ankara - Bahçelievler 
-Trafik: Ankara - Siteler
+Veri Seti Hakkında Bilgiler
+
+İstasyonlar
+
+Kentsel: Ankara - Bahçelievler  
+Trafik: Ankara - Siteler  
 Sanayi: Ankara - Sıhhıye
 
 Ölçüm Değerleri:
