@@ -27,4 +27,5 @@ for i in df.index:
         df.at[i,"Mevsim"]=2
     elif df.loc[i]["Mevsim"]=="Yaz":
         df.at[i,"Mevsim"]=3
+    df.at[i,"Ay"]=df.at[i,"Ay"]-1
 df.to_csv("veri_seti\\veri_seti(temizlenmis).csv",sep=";")
