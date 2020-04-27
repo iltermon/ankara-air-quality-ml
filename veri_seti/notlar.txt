@@ -19,17 +19,18 @@ BagilNem(%): Belirli bir sıcaklıkta havada bulunan su buharı miktarının, ha
 PM25(µg/m³): Partiküler Madde (PM25) ve çapı 25 mikrometreden küçük diğer tanecikler akciğerlere ulaşarak iltihaplanmaya ya da insanları çok olumsuz etkileyecek kalp ve akciğer hastalıklarına neden olabilirler.
 
 String verilere karşılık gelen sayısal değerler;
+Aylar 0-11 arasında numaralandırılmıştır.
 
-IstasyonTipi Sütunu     
+IstasyonTipi Sütunu
 Kentsel: 0     
 Sanayi: 1   
 Trafik: 2
 
-GeceGunduz  Sütunu     
+GeceGunduz  Sütunu
 Gece: 0 
 Gunduz: 1
 
-HaftasonuHaftaici Sütunu     
+HaftasonuHaftaici Sütunu 
 Haftasonu: 0    
 Haftaici: 1 
 
