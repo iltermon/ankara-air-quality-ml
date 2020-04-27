@@ -40,3 +40,12 @@ Ilkbahar: 0
 Kis: 1  
 Sonbahar: 2 
 Yaz: 3
+
+Ölçüm değerlerinin insan sağlığı için zararlı olduğu seviyeler  
+PM10: 50 µg/m3  
+PM25: 25 µg/m3  
+SO2: 125 µg/m3  
+CO: 10 mg/m3    
+NO2: 200 µg/m3  
+NOX: 30 µg/m3   
+
