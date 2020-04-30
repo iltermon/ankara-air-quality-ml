@@ -32,3 +32,34 @@ pm25_gece_trafik=df[(df['PM25']>25) & (df["GeceGunduz"]==0)&(df["IstasyonTipi"]=
 pm25_gece_sanayi=df[(df['PM25']>25) & (df["GeceGunduz"]==0)&(df["IstasyonTipi"]==2)]["PM25"].count()
 
 # %%
+so2_gunduz_kentsel=df[(df['SO2']>125) & (df["GeceGunduz"]==1)&(df["IstasyonTipi"]==0)]["SO2"].count()
+so2_gunduz_trafik=df[(df['SO2']>125) & (df["GeceGunduz"]==1)&(df["IstasyonTipi"]==1)]["SO2"].count()
+so2_gunduz_sanayi=df[(df['SO2']>125) & (df["GeceGunduz"]==1)&(df["IstasyonTipi"]==2)]["SO2"].count()
+so2_gece_kentsel=df[(df['SO2']>125) & (df["GeceGunduz"]==0)&(df["IstasyonTipi"]==0)]["SO2"].count()
+so2_gece_trafik=df[(df['SO2']>125) & (df["GeceGunduz"]==0)&(df["IstasyonTipi"]==1)]["SO2"].count()
+so2_gece_sanayi=df[(df['SO2']>125) & (df["GeceGunduz"]==0)&(df["IstasyonTipi"]==2)]["SO2"].count()
+
+
+# %%
+co_gunduz_kentsel=df[(df['CO']>10) & (df["GeceGunduz"]==1)&(df["IstasyonTipi"]==0)]["CO"].count()
+co_gunduz_trafik=df[(df['CO']>10) & (df["GeceGunduz"]==1)&(df["IstasyonTipi"]==1)]["CO"].count()
+co_gunduz_sanayi=df[(df['CO']>10) & (df["GeceGunduz"]==1)&(df["IstasyonTipi"]==2)]["CO"].count()
+co_gece_kentsel=df[(df['CO']>10) & (df["GeceGunduz"]==0)&(df["IstasyonTipi"]==0)]["CO"].count()
+co_gece_trafik=df[(df['CO']>10) & (df["GeceGunduz"]==0)&(df["IstasyonTipi"]==1)]["CO"].count()
+co_gece_sanayi=df[(df['CO']>10) & (df["GeceGunduz"]==0)&(df["IstasyonTipi"]==2)]["CO"].count()
+
+# %%
+no2_gunduz_kentsel=df[(df['NO2']>200) & (df["GeceGunduz"]==1)&(df["IstasyonTipi"]==0)]["NO2"].count()
+no2_gunduz_trafik=df[(df['NO2']>200) & (df["GeceGunduz"]==1)&(df["IstasyonTipi"]==1)]["NO2"].count()
+no2_gunduz_sanayi=df[(df['NO2']>200) & (df["GeceGunduz"]==1)&(df["IstasyonTipi"]==2)]["NO2"].count()
+no2_gece_kentsel=df[(df['NO2']>200) & (df["GeceGunduz"]==0)&(df["IstasyonTipi"]==0)]["NO2"].count()
+no2_gece_trafik=df[(df['NO2']>200) & (df["GeceGunduz"]==0)&(df["IstasyonTipi"]==1)]["NO2"].count()
+no2_gece_sanayi=df[(df['NO2']>200) & (df["GeceGunduz"]==0)&(df["IstasyonTipi"]==2)]["NO2"].count()
+
+# %%
+nox_gunduz_kentsel=df[(df['NOX']>30) & (df["GeceGunduz"]==1)&(df["IstasyonTipi"]==0)]["NOX"].count()
+nox_gunduz_trafik=df[(df['NOX']>30) & (df["GeceGunduz"]==1)&(df["IstasyonTipi"]==1)]["NOX"].count()
+nox_gunduz_sanayi=df[(df['NOX']>30) & (df["GeceGunduz"]==1)&(df["IstasyonTipi"]==2)]["NOX"].count()
+nox_gece_kentsel=df[(df['NOX']>30) & (df["GeceGunduz"]==0)&(df["IstasyonTipi"]==0)]["NOX"].count()
+nox_gece_trafik=df[(df['NOX']>30) & (df["GeceGunduz"]==0)&(df["IstasyonTipi"]==1)]["NOX"].count()
+nox_gece_sanayi=df[(df['NOX']>30) & (df["GeceGunduz"]==0)&(df["IstasyonTipi"]==2)]["NOX"].count()
