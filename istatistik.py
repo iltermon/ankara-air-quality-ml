@@ -168,6 +168,7 @@ plt.bar(saatler, degerler2)
 plt.subplot(133)
 plt.bar(saatler, degerler3)
 plt.suptitle('PM10 ( µg/m³ )')
+plt.savefig("pm10_gun.png")
 plt.show()
 
 # %%
@@ -184,8 +185,8 @@ plt.bar(saatler, degerler2)
 plt.subplot(133)
 plt.bar(saatler, degerler3)
 plt.suptitle('PM25 ( µg/m³ )')
+plt.savefig("pm25_gun.png")
 plt.show()
-
 # %% 
 saatler = ['Gece', 'Gunduz']
 degerler1 = [so2_gece_kentsel, so2_gunduz_kentsel]
@@ -200,8 +201,8 @@ plt.bar(saatler, degerler2)
 plt.subplot(133)
 plt.bar(saatler, degerler3)
 plt.suptitle('SO2 ( µg/m³ )')
+plt.savefig("so2_gun.png")
 plt.show()
-
 # %% 
 saatler = ['Gece', 'Gunduz']
 degerler1 = [co_gece_kentsel, co_gunduz_kentsel]
@@ -216,8 +217,8 @@ plt.bar(saatler, degerler2)
 plt.subplot(133)
 plt.bar(saatler, degerler3)
 plt.suptitle('CO ( mg/m³ )')
+plt.savefig("co_gun.png")
 plt.show()
-
 # %% 
 saatler = ['Gece', 'Gunduz']
 degerler1 = [no2_gece_kentsel, no2_gunduz_kentsel]
@@ -232,8 +233,8 @@ plt.bar(saatler, degerler2)
 plt.subplot(133)
 plt.bar(saatler, degerler3)
 plt.suptitle('NO2 ( µg/m³ )')
+plt.savefig("no2_gun.png")
 plt.show()
-
 # %% 
 saatler = ['Gece', 'Gunduz']
 degerler1 = [nox_gece_kentsel, nox_gunduz_kentsel]
@@ -248,22 +249,7 @@ plt.bar(saatler, degerler2)
 plt.subplot(133)
 plt.bar(saatler, degerler3)
 plt.suptitle('NOX ( µg/m³ )')
-plt.show()
-
-# %%
-saatler = ['Gece', 'Gunduz']
-degerler1 = [nox_gece_kentsel, nox_gunduz_kentsel]
-degerler2 = [nox_gece_trafik, nox_gunduz_trafik]
-degerler3 = [nox_gece_sanayi, nox_gunduz_sanayi]
-f=plt.figure(figsize=(12,6))
-
-plt.subplot(131)
-plt.bar(saatler, degerler1)
-plt.subplot(132)
-plt.bar(saatler, degerler2)
-plt.subplot(133)
-plt.bar(saatler, degerler3)
-plt.suptitle('NOX ( µg/m³ )')
+plt.savefig("nox_gun.png")
 plt.show()
 
 # %%
@@ -280,8 +266,8 @@ plt.bar(mevsim, degerler2)
 plt.subplot(133)
 plt.bar(mevsim, degerler3)
 plt.suptitle('PM10 ( µg/m³ )')
+plt.savefig("pm10_mev.png")
 plt.show()
-
 # %%
 mevsim = ['İlkbahar', 'Yaz','Sonbahar', 'Kış']
 degerler1 = [pm25_bahar_kentsel, pm25_yaz_kentsel, pm25_sonbahar_kentsel, pm25_kis_kentsel]
@@ -295,9 +281,9 @@ plt.subplot(132)
 plt.bar(mevsim, degerler2)
 plt.subplot(133)
 plt.bar(mevsim, degerler3)
-plt.suptitle('PM10 ( µg/m³ )')
+plt.suptitle('PM25 ( µg/m³ )')
+plt.savefig("pm25_mev.png")
 plt.show()
-
 # %%
 mevsim = ['İlkbahar', 'Yaz','Sonbahar', 'Kış']
 degerler1 = [so2_bahar_kentsel, pm10_yaz_kentsel, so2_sonbahar_kentsel, so2_kis_kentsel]
@@ -311,9 +297,9 @@ plt.subplot(132)
 plt.bar(mevsim, degerler2)
 plt.subplot(133)
 plt.bar(mevsim, degerler3)
-plt.suptitle('PM10 ( µg/m³ )')
+plt.suptitle('SO2 ( µg/m³ )')
+plt.savefig("so2_mev.png")
 plt.show()
-
 # %%
 mevsim = ['İlkbahar', 'Yaz','Sonbahar', 'Kış']
 degerler1 = [co_bahar_kentsel, co_yaz_kentsel, co_sonbahar_kentsel, co_kis_kentsel]
@@ -327,9 +313,9 @@ plt.subplot(132)
 plt.bar(mevsim, degerler2)
 plt.subplot(133)
 plt.bar(mevsim, degerler3)
-plt.suptitle('PM10 ( µg/m³ )')
+plt.suptitle('CO ( mg/m³ )')
+plt.savefig("co_mev.png")
 plt.show()
-
 # %%
 mevsim = ['İlkbahar', 'Yaz','Sonbahar', 'Kış']
 degerler1 =  [no2_bahar_kentsel, no2_yaz_kentsel, no2_sonbahar_kentsel, no2_kis_kentsel]
@@ -343,9 +329,9 @@ plt.subplot(132)
 plt.bar(mevsim, degerler2)
 plt.subplot(133)
 plt.bar(mevsim, degerler3)
-plt.suptitle('PM10 ( µg/m³ )')
+plt.suptitle('NOX ( µg/m³ )')
+plt.savefig("nox_mev.png")
 plt.show()
-
 # %%
 mevsim = ['İlkbahar', 'Yaz','Sonbahar', 'Kış']
 degerler1 =  [nox_bahar_kentsel, nox_yaz_kentsel, nox_sonbahar_kentsel, nox_kis_kentsel]
@@ -359,5 +345,6 @@ plt.subplot(132)
 plt.bar(mevsim, degerler2)
 plt.subplot(133)
 plt.bar(mevsim, degerler3)
-plt.suptitle('PM10 ( µg/m³ )')
+plt.suptitle('NO2 ( µg/m³ )')
+plt.savefig("no2_mev.png")
 plt.show()
