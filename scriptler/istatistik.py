@@ -3,6 +3,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+from pathlib import Path
+import os
+import pandas as pd
 ## Kritik Seviyeler #
 ## PM10: 50 µg/m3 ##  
 ## PM25: 25 µg/m3 ##  
@@ -11,7 +14,10 @@ import numpy as np
 ## NO2: 200 µg/m3 ##  
 ## NOX: 30 µg/m3  ##  
 ####################
-df=pd.read_csv("veri_seti/veri_seti(temizlenmis).csv", sep=';', encoding = 'utf8')
+dirpath = os.getcwd()
+repopath = Path(dirpath).parent
+path=Path("veri_seti\\veri_seti(temizlenmis).csv") 
+df=pd.read_csv(str(repopath)+"\\"+str(path), sep=';', encoding = 'utf8')
 
 # %%
 #kritik seviyenin üzerinde pm10 olan günler
