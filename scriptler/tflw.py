@@ -26,17 +26,20 @@ y = labels
 # %%
 x = StandardScaler().fit_transform(x)
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3)
-y_train1 = to_categorical(y_train)
-y_test1 = to_categorical(y_test)
+y_train = to_categorical(y_train)
+y_test = to_categorical(y_test)
 
 # %%
 model = Sequential()
 model.add(Dense(16,input_dim=14,activation="relu"))
-model.add(Dense(12, activation="relu"))
-model.add(Dense(3,activation="softmax"))
+model.add(Dense(32, activation="relu"))
+model.add(Dense(64,activation="relu"))
+model.add(Dense(128,activation="relu"))
+model.add(Dense(256,activation="relu"))
+model.add(Dense(512,activation="softmax"))
 model.add(Dense(3))
 model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
-model.fit(x_train,y_train1, validation_data=(x_test,y_test1) epochs=50)
+model.fit(x_train,y_train, validation_data=(x_test,y_test), epochs=100)
 # %%
 plt.plot(model.history.history["accuracy"])
 plt.plot(model.history.history["val_accuracy"])
@@ -55,5 +58,15 @@ plt.ylabel("Kayıp")
 plt.xlabel("Epok Sayısı")
 plt.legend(["Eğitim","Test"], loc="upper left")
 plt.show()
+
+# %%
+plt.plot(model.history.history["accuracy"])
+plt.plot(model.history.history["val_accuracy"])
+plt.title("Model Başarımları")
+plt.ylabel("Başarım")
+plt.xlabel("Epok Sayısı")
+plt.legend(["Eğitim","Test"], loc="upper left")
+plt.show()
+
 
 # %%
