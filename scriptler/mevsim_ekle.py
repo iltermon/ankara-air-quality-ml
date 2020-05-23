@@ -7,6 +7,7 @@ import numpy as np
 repo_path = os.getcwd()
 repo_path = Path(repo_path).parent
 path=Path("veri_seti\\veri_seti.xlsx") 
+csv=Path("veri_seti\\veri_seti.csv") 
 df=pd.read_excel(str(repo_path)+"\\"+str(path))
 #%%
 for i in df.index:
@@ -20,7 +21,7 @@ for i in df.index:
         df.at[i,"Mevsim"]="Sonbahar"
 
 # %%
-df.to_excel(str(repo_path)+"\\"+str(path))
+df.to_csv(str(repo_path)+"\\"+str(csv))
 
 
 # %%
