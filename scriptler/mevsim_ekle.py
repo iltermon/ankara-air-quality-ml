@@ -1,8 +1,16 @@
+#%%
+from pathlib import Path
+import os
 import pandas as pd
 import numpy as np
-df = pd.read_csv("veri_seti\\veri_seti(temizlenmis).csv",sep=";")
+#%%
+repo_path = os.getcwd()
+repo_path = Path(repo_path).parent
+path=Path("veri_seti\\veri_seti.xlsx") 
+df=pd.read_excel(str(repo_path)+"\\"+str(path))
+#%%
 for i in df.index:
-    if df.loc[i]["IstasyonTipi"]==12 or df.loc[i]["Ay"]==1 or df.loc[i]["Ay"]==2:
+    if df.loc[i]["Ay"]==12 or df.loc[i]["Ay"]==1 or df.loc[i]["Ay"]==2:
         df.at[i,"Mevsim"]="Kis"
     elif df.loc[i]["Ay"]==3 or df.loc[i]["Ay"]==4 or df.loc[i]["Ay"]==5:
         df.at[i,"Mevsim"]="Ilkbahar"
@@ -10,4 +18,9 @@ for i in df.index:
         df.at[i,"Mevsim"]="Yaz"
     elif df.loc[i]["Ay"]==9 or df.loc[i]["Ay"]==10 or df.loc[i]["Ay"]==11:
         df.at[i,"Mevsim"]="Sonbahar"
-df.to_csv("veri_seti\\veri_seti(temizlenmis).csv",sep=";")
+
+# %%
+df.to_excel(str(repo_path)+"\\"+str(path))
+
+
+# %%
