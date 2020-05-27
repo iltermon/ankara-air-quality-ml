@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import plot_model
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+from tensorflow.keras.layers import Dense,LSTM,Activation,BatchNormalization,Dropout,Flatten
 from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.metrics import roc_curve
 from matplotlib import pyplot as plt
@@ -22,8 +22,6 @@ path=Path("veri_seti\\veri_seti.csv")
 df=pd.read_csv(str(repo_path)+"\\"+str(path), encoding = 'utf8')
 
 #%%
-
-
 df["Gece/Gunduz"]=le.fit_transform(df["Gece/Gunduz"])
 df["Haftasonu/Haftaici"]=le.fit_transform(df["Haftasonu/Haftaici"])
 df["Mevsim"]=le.fit_transform(df["Mevsim"])
@@ -35,21 +33,26 @@ nb_classes= len(classes)
 nb_features = x.shape[1]
 # %%
 x = StandardScaler().fit_transform(x)
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3)
+x_train, x_valid, y_train, y_valid = train_test_split(x, y, test_size=0.3)
 y_train = to_categorical(y_train)
-y_test = to_categorical(y_test)
-
+y_valid = to_categorical(y_valid)
+x_train  = np.array(x_train).reshape(x_train.shape[0], x_train.shape[1],1)
+x_valid  = np.array(x_valid).reshape(x_valid.shape[0], x_valid.shape[1],1)
 # %%
 model = Sequential()
-model.add(Dense(512,input_dim=nb_features,activation="relu"))
-model.add(Dense(1024, activation="relu"))
-model.add(Dense(2048,activation="relu"))
-model.add(Dense(512,activation="relu"))
-model.add(Dense(256,activation="relu"))
-model.add(Dense(512,activation="softmax"))
-model.add(Dense(3))
-model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
-model.fit(x_train,y_train, validation_data=(x_test,y_test), epochs=100)
+model.add(LSTM(512,input_shape = (nb_features,1)))
+model.add(Activation("relu"))
+model.add(BatchNormalization())
+model.add(Flatten())
+model.add(Dropout(0.15))
+model.add(Dense(2048, activation = "relu"))
+model.add(Dense(1024, activation = "relu"))
+model.add(Dense(nb_classes, activation="softmax"))
+model.summary()
+#%%
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['acc'])
+score = model.fit(x_train, y_train, epochs = 100, validation_data=(x_valid,y_valid))
+
 # %%
 plt.plot(model.history.history["accuracy"])
 plt.plot(model.history.history["val_accuracy"])
