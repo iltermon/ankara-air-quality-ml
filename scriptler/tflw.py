@@ -14,15 +14,25 @@ from tensorflow.keras.layers import Dense
 from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.metrics import roc_curve
 from matplotlib import pyplot as plt
+le = LabelEncoder()
 # %%
 repo_path = os.getcwd()
 repo_path = Path(repo_path).parent
-path=Path("veri_seti\\veri_seti(temizlenmis).csv") 
-df=pd.read_csv(str(repo_path)+"\\"+str(path), sep=';', encoding = 'utf8')
-label_encoder=LabelEncoder().fit(df["IstasyonTipi"])
+path=Path("veri_seti\\veri_seti.csv") 
+df=pd.read_csv(str(repo_path)+"\\"+str(path), encoding = 'utf8')
+
+#%%
+
+
+df["Gece/Gunduz"]=le.fit_transform(df["Gece/Gunduz"])
+df["Haftasonu/Haftaici"]=le.fit_transform(df["Haftasonu/Haftaici"])
+df["Mevsim"]=le.fit_transform(df["Mevsim"])
 labels=LabelEncoder().fit_transform(df["IstasyonTipi"])
-x = df.drop(["Tarih","IstasyonTipi"], axis=1)
 y = labels
+x = df.drop(["IstasyonTipi"], axis=1)
+classes=list(le.fit(df["IstasyonTipi"]).classes_)
+nb_classes= len(classes)
+nb_features = x.shape[1]
 # %%
 x = StandardScaler().fit_transform(x)
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3)
@@ -31,10 +41,10 @@ y_test = to_categorical(y_test)
 
 # %%
 model = Sequential()
-model.add(Dense(16,input_dim=14,activation="relu"))
-model.add(Dense(32, activation="relu"))
-model.add(Dense(64,activation="relu"))
-model.add(Dense(128,activation="relu"))
+model.add(Dense(512,input_dim=nb_features,activation="relu"))
+model.add(Dense(1024, activation="relu"))
+model.add(Dense(2048,activation="relu"))
+model.add(Dense(512,activation="relu"))
 model.add(Dense(256,activation="relu"))
 model.add(Dense(512,activation="softmax"))
 model.add(Dense(3))
@@ -67,6 +77,4 @@ plt.ylabel("Başarım")
 plt.xlabel("Epok Sayısı")
 plt.legend(["Eğitim","Test"], loc="upper left")
 plt.show()
-
-
-# %%
+#%%
