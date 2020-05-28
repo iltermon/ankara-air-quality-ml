@@ -14,8 +14,9 @@ from tensorflow.keras.layers import Dense,LSTM,Activation,BatchNormalization,Dro
 from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.metrics import roc_curve
 from matplotlib import pyplot as plt
-le = LabelEncoder()
+
 # %%
+le = LabelEncoder()
 repo_path = os.getcwd()
 repo_path = Path(repo_path).parent
 path=Path("veri_seti\\veri_seti.csv") 
@@ -33,11 +34,14 @@ nb_classes= len(classes)
 nb_features = x.shape[1]
 # %%
 x = StandardScaler().fit_transform(x)
-x_train, x_valid, y_train, y_valid = train_test_split(x, y, test_size=0.3)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=1)
+x_train, x_valid, y_train, y_valid = train_test_split(x_train, y_train, test_size=0.25, random_state=1) # 0.25 x 0.8 = 0.2
 y_train = to_categorical(y_train)
 y_valid = to_categorical(y_valid)
+y_test = to_categorical(y_test)
 x_train  = np.array(x_train).reshape(x_train.shape[0], x_train.shape[1],1)
 x_valid  = np.array(x_valid).reshape(x_valid.shape[0], x_valid.shape[1],1)
+x_test  = np.array(x_test).reshape(x_test.shape[0], x_test.shape[1],1)
 # %%
 model = Sequential()
 model.add(LSTM(512,input_shape = (nb_features,1)))
@@ -51,11 +55,12 @@ model.add(Dense(nb_classes, activation="softmax"))
 model.summary()
 #%%
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['acc'])
-score = model.fit(x_train, y_train, epochs = 100, validation_data=(x_valid,y_valid))
-
+score = model.fit(x_train, y_train, epochs = 1, validation_data=(x_valid,y_valid),batch_size=32)
+#%%
+results = model.evaluate(x_test, y_test, batch_size=128)
 # %%
-plt.plot(model.history.history["accuracy"])
-plt.plot(model.history.history["val_accuracy"])
+plt.plot(model.history.history["acc"])
+plt.plot(model.history.history["val_acc"])
 plt.title("Model Başarımları")
 plt.ylabel("Başarım")
 plt.xlabel("Epok Sayısı")
@@ -73,11 +78,6 @@ plt.legend(["Eğitim","Test"], loc="upper left")
 plt.show()
 
 # %%
-plt.plot(model.history.history["accuracy"])
-plt.plot(model.history.history["val_accuracy"])
-plt.title("Model Başarımları")
-plt.ylabel("Başarım")
-plt.xlabel("Epok Sayısı")
-plt.legend(["Eğitim","Test"], loc="upper left")
-plt.show()
+model.save('path/to/location')
+
 #%%
