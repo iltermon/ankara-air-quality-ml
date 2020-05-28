@@ -14,6 +14,7 @@ from tensorflow.keras.layers import Dense,LSTM,Activation,BatchNormalization,Dro
 from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.metrics import roc_curve
 from matplotlib import pyplot as plt
+import tensorflow
 
 # %%
 le = LabelEncoder()
@@ -67,7 +68,6 @@ plt.xlabel("Epok Sayısı")
 plt.legend(["Eğitim","Test"], loc="upper left")
 plt.show()
 
-
 # %%
 plt.plot(model.history.history["loss"])
 plt.plot(model.history.history["val_loss"])
@@ -81,3 +81,5 @@ plt.show()
 model.save('path/to/location')
 
 #%%
+path1=Path("model") 
+tensorflow.saved_model.load(str(repo_path)+"\\"+str(path1))
