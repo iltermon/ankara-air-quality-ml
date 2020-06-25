@@ -1,3 +1,4 @@
+#veri setiyle ilgili bazı grafikler oluşturan script
 #%%
 from pathlib import Path
 import os

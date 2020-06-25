@@ -1,3 +1,4 @@
+#tarih bilgisinden mevsimi çıkarıp yeni bir sütun olarak ekleyen script
 #%%
 from pathlib import Path
 import os

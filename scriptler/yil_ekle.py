@@ -1,3 +1,4 @@
+#verilerdeki tarih bilgisinden yılı çıkaran script
 #%%
 from pathlib import Path
 import os
@@ -16,6 +17,3 @@ for i in range(len(df["Tarih"])):
    df["Tarih"][i]=df["Tarih"][i][:4]
 # %%
 df.to_csv(str(repo_path)+"\\"+str(csv),sep=",",index=False)
-
-# %%
-df

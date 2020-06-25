@@ -1,4 +1,4 @@
-
+#Eksi veri tamamlayan script
 #%%
 from pathlib import Path
 import os
