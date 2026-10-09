@@ -1,40 +1,45 @@
-# Air Quality Prediction — Ankara
+# Ankara Air Quality — ML
 
-An end-to-end machine-learning project on air-quality data from three Ankara
-monitoring stations, built for a university software-engineering course.
+A machine-learning project on long-term air-quality data from Ankara, built for a
+university software-engineering course (YMH418).
 
-## Overview
-The project takes raw pollutant measurements, cleans and enriches them, explores
-the data, and trains a neural network to classify air quality — with a full
-evaluation of the results.
+## Motivation
+The study started from a question: **how do human activity patterns affect air
+pollution?** — e.g. working days vs. holidays, day vs. night, and the reduced
+movement during the pandemic period. To explore this, time-based features were
+engineered on top of the raw pollutant data. The modeling effort then narrowed to
+a concrete, measurable task: **predicting the monitoring-station type** (urban /
+traffic / industrial) from a given set of readings.
 
 ## Data
-Measurements from three station types in Ankara:
-- **Urban** — Bahçelievler
-- **Traffic** — Siteler
-- **Industrial** — Sıhhıye
+Air-quality measurements from Ankara stations, **2008–2020** (~21,500 records,
+12-hour intervals), across three station types:
+- **Urban** (Kentsel) — Bahçelievler
+- **Traffic** (Trafik) — Siteler
+- **Industrial** (Sanayi) — Sıhhıye
 
-Pollutants & conditions: PM10, PM2.5, SO₂, CO, NO₂, NOₓ, NO, O₃, and relative humidity (µg/m³).
+Measured variables: PM10, PM2.5, SO₂, CO, NO₂, NOₓ, NO, air temperature, and
+relative humidity.
+
+Engineered features: time of day (day/night), weekday/weekend, month, and season —
+chosen to capture human-activity patterns.
 
 ## Pipeline
 | Stage | Script | What it does |
 |---|---|---|
-| Imputation | `scriptler/impute.py` | Fills missing measurements |
-| Feature engineering | `scriptler/mevsim_ekle.py`, `scriptler/yil_ekle.py` | Adds season & year features |
-| Statistics | `scriptler/istatistik.py`, `scriptler/metrics.py` | Summary stats / dataset profiling |
-| Visualization | `scriptler/gorsellestirme.py` | Generates the plots in `grafikler/` |
-| Modeling | `scriptler/model.ipynb` | Keras/TensorFlow network (Dense + Dropout + LSTM) |
+| Cleaning | `scriptler/impute.py` | Drops empty rows, handles outliers, **K-NN imputation** of missing values |
+| Feature engineering | `scriptler/mevsim_ekle.py`, `scriptler/yil_ekle.py` | Adds season / year features |
+| Statistics | `scriptler/istatistik.py`, `scriptler/metrics.py` | Dataset profiling (min/max/mean/std) |
+| Visualization | `scriptler/gorsellestirme.py` | Pollutant trends by year & station type (`grafikler/`) |
+| Modeling | `scriptler/model.ipynb` | Trains & evaluates the classifier |
 
 ## Model
-A neural network built with **TensorFlow/Keras**, evaluated with **accuracy,
-precision, recall, and F1** (via scikit-learn). Training curves and per-class
-metrics are in `grafikler/asama5/`.
+A **Keras / TensorFlow** network (LSTM + dense layers, dropout, batch norm),
+trained with an 60/20/20 train/validation/test split and evaluated with accuracy,
+precision, recall, and F1 (scikit-learn).
 
-## Results
-See `grafikler/` for:
-- Pollutant trends by day and season (`asama3/`)
-- Model comparison & accuracy (`asama4/`)
-- Training loss/accuracy and precision/recall/F1 (`asama5/`)
+**Results:** ~75% validation accuracy, **~85% test accuracy**. Training curves and
+per-metric charts are in `grafikler/asama5/`.
 
 ## Repository layout
 - `scriptler/` — processing & modeling code
@@ -42,7 +47,5 @@ See `grafikler/` for:
 - `grafikler/` — generated plots and evaluation charts
 
 ## Notes
-Open CSVs with a text editor (semicolon separator). Script purposes are documented
-as inline comments. 
-
-_Course project, 2020._
+Open the CSVs with a text editor (semicolon separator). Script purposes are
+documented as inline comments. _University course project, 2021._
