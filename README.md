@@ -43,4 +43,6 @@ See `grafikler/` for:
 
 ## Notes
 Open CSVs with a text editor (semicolon separator). Script purposes are documented
-as inline comments. _Course project, 2021._
+as inline comments. 
+
+_Course project, 2020._
