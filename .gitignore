@@ -1,0 +1,5 @@
+
+# reports (contain personal info) and large videos — kept locally, not published
+raporlar/
+videolar/
+.vscode/
